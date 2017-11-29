@@ -1,0 +1,20 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "mocha mocha1.js",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha mocha1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11",
+    "html-webpack-plugin": "^2.30.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  }
+}
