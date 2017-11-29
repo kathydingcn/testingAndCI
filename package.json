@@ -5,7 +5,7 @@
   "main": "1.js",
   "scripts": {
     "test": "mocha mocha1.js",
-    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha mocha1.js"
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha mocha1.js"
   },
   "author": "",
   "license": "ISC",
